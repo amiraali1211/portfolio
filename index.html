@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amira Ali — Fullstack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <div class="logo display"><span class="dot"></span>Amira Ali<span style="color:var(--muted);font-weight:400;">()</span></div>
+      <div class="nav-links">
+        <a href="#about">about</a>
+        <a href="#work">work</a>
+        <a href="#experience">experience</a>
+        <a href="#contact">contact</a>
+      </div>
+      <div style="display:flex; align-items:center; gap:14px;">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme">
+          <span class="knob">☾</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<div class="side-nav" id="sideNav">
+  <a href="#about">about</a>
+  <a href="#work">work</a>
+  <a href="#experience">experience</a>
+  <a href="#contact">contact</a>
+</div>
+<div class="side-nav-overlay" id="sideNavOverlay"></div>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-inner">
+      <div>
+        <div class="eyebrow"><span class="cursor"></span>fullstack-developer</div>
+        <h1 class="display">Hi, I'm <span>Amira Ali</span>. I build things end to end.</h1>
+        <p class="lede">I design and ship complete products — from interfaces people enjoy using to the APIs and databases that keep them running. Comfortable owning a feature from first sketch to production deploy.</p>
+        <div class="hero-ctas">
+          <a href="#work" class="btn btn-primary">View my work</a>
+          <a href="https://drive.google.com/file/d/1cp3g6vgMXvrsF6NCsMpw5aAHddXh3aid/view?usp=sharing" class="btn btn-ghost">Download CV ↓</a>
+        </div>
+      </div>
+
+      <div class="rig">
+        <div class="photo-frame">
+          <img src="img/photo_2026-07-12_16-14-51.jpg" alt="Amira Ali">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <div class="eyebrow">01 · about</div>
+      <h2 class="display">The short version</h2>
+    </div>
+    <div class="about-grid" data-reveal>
+      <div>
+        <p><b>I'm a fullstack developer</b> who likes owning problems completely — the pixel-level polish of a UI and the architecture decisions behind the API that feeds it.</p>
+        <p>My approach: understand the real problem first, prototype fast, then build it properly — clean code, sensible tests, and something the next developer (often future-me) won't dread opening.</p>
+        <p>Outside of client work I contribute to open source and tinker with side projects to stay sharp on new tools.</p>
+      </div>
+      <div class="skill-stack">
+        <div class="skill-layer">
+          <div class="skill-layer-head"><span class="tag">Frontend</span></div>
+          <div class="skill-chips">
+            <span class="chip">React</span><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">Javascript</span>
+          </div>
+        </div>
+        <div class="skill-layer">
+          <div class="skill-layer-head"><span class="tag">Backend</span></div>
+          <div class="skill-chips">
+            <span class="chip">Node.js</span><span class="chip">PHP</span><span class="chip">Laravel</span>
+          </div>
+        </div>
+        <div class="skill-layer">
+          <div class="skill-layer-head"><span class="tag">Data</span></div>
+          <div class="skill-chips">
+            <span class="chip">oracle</span><span class="chip">SQL</span><span class="chip">Power PI</span>
+          </div>
+        </div>
+        <div class="skill-layer">
+          <div class="skill-layer-head"><span class="tag">Technical skills</span></div>
+          <div class="skill-chips">
+            <span class="chip">C++</span><span class="chip">Java</span><span class="chip">Python</span><span class="chip">SFML</span><span class="chip">Arduino</span><span class="chip">Word</span><span class="chip">Power point</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <div class="eyebrow">02 · work</div>
+      <h2 class="display">Selected projects</h2>
+      <p>A few things I've built recently. Swap these with your real projects and screenshots.</p>
+    </div>
+    <div class="work-grid" data-reveal>
+      <div class="work-card">
+        <div class="work-thumb">
+          <img src="img/Screenshot (93).png" alt="Project One">
+
+        </div>
+       <div class="work-body">
+  <div class="tag-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+  <h3>Positivus</h3>
+  <p>A pixel-perfect clone of a digital marketing agency landing page, built fully responsive from a Figma design.</p>
+  <a href="https://github.com/amiraali1211/positvious.git" class="work-link">View project →</a>
+</div>
+      </div>
+      <div class="work-card">
+        <div class="work-thumb">
+          <img src="img/WPS Photo(1).png" alt="Project Two">
+        </div>
+        <div class="work-body">
+          <div class="tag-row"><span>Laravel</span><span>PHP</span><span>Html</span><span>CSS</span><span>Bootstrap</span><span>Javascript</span><span>MYSQL</span></div>
+          <h3>School Mangment</h3>
+<p>A full-featured school management system for handling student records, attendance, grades, and staff administration.</p>          <a href="https://github.com/amiraali1211/school_mangment.git" class="work-link">View project →</a>
+        </div>
+      </div>
+      <div class="work-card">
+        <div class="work-thumb">
+                    <img src="img/WPS Photo.png" alt="Project Three">
+
+        </div>
+        <div class="work-body">
+          <div class="tag-row"><span>Node.js </span><span>Express</span><span>Sequelize</span><span>MySQL</span><span>React</span><span>Vite</span></div>
+          <h3>Furni</h3>
+          <p>The Furni system is designed to provide a complete and user-friendly online furniture shopping experience.</p>
+          <a href="https://github.com/roaa-taha-m/Web-Development-Project-2026.git" class="work-link">View project →</a>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <div class="eyebrow">03 · experience</div>
+      <h2 class="display">Where I've worked</h2>
+    </div>
+    <div class="log" data-reveal>
+      <div class="log-item">
+        <div class="when">Jun 2024 — Sep 2024</div>
+        <h3>Software Testing Volunteer</h3>
+        <span class="co">DEPI — Ministry of Communications and Information Technology</span>
+        <p>Assisted in software testing to improve functionality and user experience, and collaborated with a team to troubleshoot and debug issues. Gained hands-on experience with AI tools and software testing practices.</p>
+      </div>
+      <div class="log-item">
+        <div class="when">Aug 2024 — Sep 2024</div>
+        <h3>Frontend Development Volunteer</h3>
+        <span class="co">Coding Workshop — MAM Club, Ain Shams University</span>
+        <p>Developed user-friendly web interfaces using HTML, CSS, and JavaScript, and collaborated with design teams to implement responsive layouts. Gained experience with version control and agile methodologies.</p>
+      </div>
+      <div class="log-item">
+        <div class="when">July 2025 — Aug 2025</div>
+        <h3>Frontend Development Volunteer</h3>
+        <span class="co">iClub Student Activity, Ain Shams University</span>
+        <p>Completed frontend development training covering core web technologies and hands-on project work through the university's iClub student activity.</p>
+      </div>
+      <div class="log-item">
+        <div class="when">Aug 2025 — Sep 2025</div>
+        <h3>Full-Stack Web Development Using PHP Training</h3>
+        <span class="co">National Telecommunication Institute (NTI)</span>
+        <p>Completed intensive full-stack development training, covering front-end and back-end technologies and hands-on project-based learning.</p>
+      </div>
+      <div class="log-item">
+        <div class="when">Expected Jun 2027</div>
+        <h3>B.Sc. Computer Science</h3>
+        <span class="co">Faculty of Computer Science and Informatics, Ain Shams University</span>
+        <p>Currently pursuing a degree in Computer Science, building a strong foundation in programming, algorithms, and software development.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-panel" data-reveal>
+      <div>
+        <div class="eyebrow">04 · contact</div>
+        <h2 class="display">Let's build something.</h2>
+        <p>Have a project in mind, or just want to say hi? My inbox is open.</p>
+        <div class="contact-links">
+          <a href="mailto:amiragharbiya2021@gmail.com">✉ &nbsp;amiragharbiya2021@gmail.com</a>
+          <a href="https://www.linkedin.com/in/amira-ali-b37ab0287/">in &nbsp;linkedin.com/in/amira-ali</a>
+          <a href="https://github.com/amiraali1211">gh &nbsp;github.com/amiraali1211</a>
+        </div>
+      </div>
+      <form>
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="" required>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send message →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">© 2026 Amira Ali — built with care.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
